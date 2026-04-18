@@ -17,7 +17,7 @@ try:
     conn = st.connection("gsheets", type=GSheetsConnection)
     
     # Lendo os dados. 
-    # Tentei manter o nome "ODM_MARCO". 
+    # Tentei manter o nome "ODM_MARÇO". 
     # IMPORTANTE: Verifique se na sua planilha o nome da aba está exatamente ODM_MARCO
     df = conn.read(spreadsheet=URL_PLANILHA, worksheet="ODM_MARCO", ttl=0)
     
