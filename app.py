@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="Dashboard ODM - Combustível")
 
 # --- CONEXÃO COM O GOOGLE SHEETS ---
 # Certifique-se de que a URL da sua planilha esteja correta abaixo
-URL_PLANILHA = "COLE_AQUI_A_URL_DA_SUA_PLANILHA"
+URL_PLANILHA = "https://docs.google.com/spreadsheets/d/1izHisQGFCLdqQ7d2OSGkAM7gDJrIsLxW9FY741lJ_Ao/edit?gid=0#gid=0"
 
 try:
     conn = st.connection("gsheets", type=GSheetsConnection)
